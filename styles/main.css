@@ -1,0 +1,49 @@
+/***************************/
+/* MAIN STYLES */
+/***************************/
+.container {
+	margin: auto;
+}
+
+h1 {
+	font: 4.0em Verdana;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 26%;
+	font: 2.0em Verdana;
+	font-weight: bold;
+	text-align: center;
+}
+
+#divKick {
+	position: absolute;
+	left: 30%;
+	width: 20%;
+	padding-bottom: 20%;
+	background: url("../assets/images/bassdrum.png") no-repeat;
+	background-size: contain;
+}
+
+#divSnare {
+	position: absolute;
+	left: 55%;
+	width: 16%;
+	padding-bottom: 16%;
+	background: url("../assets/images/snaredrum.png");
+	background-size: contain;
+}
+
+.tilt-left {
+	-ms-transform:     rotate(20deg); /* IE 9 */
+	-webkit-transform: rotate(20deg); /* Safari */
+	transform:         rotate(20deg);
+}
+
+.tilt-right {
+	-ms-transform:     rotate(-20deg); /* IE 9 */
+	-webkit-transform: rotate(-20deg); /* Safari */
+	transform:         rotate(-20deg);
+}
